@@ -1,0 +1,27 @@
+#Documentation:
+#commands: #This is the base of the table, not important to you but don't remove this line
+#  website: This is the name of the command, to run the command you type /{name}. For this command, you'd type /website
+#    description: 'Description of the command that shows in the /help menu'
+#    output: This is everything that will be shown to the person who runs the command. Supported variables: %NAME%, %UUID%
+#      - '&aMessage 1'
+#      - '&2Message 2'
+#    actions: This is all of the commands that will be ran by the server when the command is typed. Supported variables: %NAME%, %UUID%
+#      - 'help'
+#      - 'eco give %NAME% 50'
+#      - 'broadcast &cHello!'
+
+commands:
+  website:
+    description: 'Displays link for our website'
+    output:
+      - '&a------------------------------'
+      - '&2Click here: &3http://google.com'
+      - '&a------------------------------'
+    actions:
+      - 'say The website command was typed!'
+  twitter:
+    description: 'Displays link for our Twitter'
+    output:
+      - '&5Our Twitter: https://twitter.com/BarackObama'
+    actions:
+      - 'say %NAME% just typed /twitter and got our Twitter link! Type it yourself and be sure to follow us!'

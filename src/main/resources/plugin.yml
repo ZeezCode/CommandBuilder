@@ -1,0 +1,7 @@
+name: CommandBuilder
+version: ${project.version}
+main: net.craftmountain.commandbuilder.CommandBuilder
+depend: [Vault]
+authors: [Zee]
+description: A plugin for easy, code-free command building
+website: CraftMountain.net
